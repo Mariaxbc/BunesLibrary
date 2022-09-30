@@ -39,3 +39,49 @@ a:hover {
 #btn-mobile {
     display: none;
 }
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    gap: 0.5rem;
+}
+.carouselExampleInterval .carousel-item img {
+    height: 100px;
+}
+
+/* CSS configurando banner */
+
+.section-banner-home {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin: 30px auto;
+    background-color: #eee5d8;
+}
+.section-banner-home img {
+    height: 400px;
+}
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px; /* Margem interna do texto */
+    color: rgb(87, 65, 45);
+}
+
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px; /* Margem externa abaixo do texto */
+    color:#3f3123;
+}
+.section-banner-home .texto-banner a {
+    color: #3f3123;
+    text-decoration: none;
+    background-color: white;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+/* Fim Banner */
