@@ -8,7 +8,7 @@ a {
     text-decoration: none;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-a:hover {
+#header #menu a:hover {
     background: rgba(182, 248, 0, 0);
 }
 #logo img {
@@ -85,3 +85,31 @@ a:hover {
     font-size: 15px;
 }
 /* Fim Banner */
+/* CSS Destaque */
+.destaque h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.destaque a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #30dcf4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+/* Fim CSS Destaque */
