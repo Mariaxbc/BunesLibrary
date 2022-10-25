@@ -11,7 +11,7 @@ jQuery(function ($) {
             title: "Localização"
         });
         var map = new google.maps.Map(document.getElementById("map1"),
-            mapOptions);
+            mapOpition);
         marker.setMap(map);    
     }
     init_map1();
